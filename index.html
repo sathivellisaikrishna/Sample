@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sai Krishna | Personal Portfolio</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Poppins:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div id="scroll-progress"></div>
+    <canvas id="bg-canvas"></canvas>
+
+    <!-- Navbar -->
+    <nav id="navbar">
+        <a href="#" class="logo">SK<span>.PORTFOLIO</span></a>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero" id="home">
+        <h1 class="scroll-reveal">
+             SAI <span class="gradient-text">KRISHNA</span>
+        </h1>
+        <p class="hero-tagline scroll-reveal">Personal Portfolio</p>
+        <div class="subtitle scroll-reveal" id="typewriter"></div>
+        <div class="hero-btns scroll-reveal">
+            <a href="#projects" class="btn btn-primary">
+                View Projects
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+                Contact Me
+            </a>
+        </div>
+        
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="section-header scroll-reveal">
+            <h2><span class="accent">About Me</span></h2>
+        </div>
+
+        <div class="about-grid container">
+            <div class="about-visual scroll-reveal">
+                <div class="glow-box"></div>
+                <div class="sk-box">
+                    <span>SK</span>
+                </div>
+            </div>
+            
+            <div class="about-content scroll-reveal">
+                <p class="about-header">// CRAFTING</p>
+                <h2 class="about-title">Building the <span class="accent">future</span> of the web</h2>
+                
+                <p>I'm Sai Krishna — a full stack web developer obsessed with building products that feel as good as they look. From pixel-perfect interfaces to scalable backends, I love turning complex problems into clean, intuitive solutions.</p>
+                
+                <p>My passion lives at the intersection of design, engineering, and AI. I'm always shipping side-projects, exploring new frameworks, and contributing to open source.</p>
+                
+                <div class="skill-pills">
+                    <span class="pill">Problem Solver</span>
+                    <span class="pill">Web Developer</span>
+                    <span class="pill">AI Enthusiast</span>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+        <div class="timeline-section-header scroll-reveal">
+            <span class="timeline-label">// TIMELINE</span>
+            <h2 class="timeline-title"><span class="accent">Education</span></h2>
+        </div>
+        
+        <div class="edu-timeline container">
+            <div class="edu-item scroll-reveal">
+                <div class="edu-dot"></div>
+                <div class="edu-card">
+                    <div class="edu-meta">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+                        2024 — 2028 (Pursuing)
+                    </div>
+                    <h3>B.Tech CSE</h3>
+                    <p class="edu-inst">Sri Vasavi Engineering College</p>
+                    <p class="edu-desc">Focus on core computer science fundamentals, full-stack engineering, and AI research.</p>
+                </div>
+            </div>
+            
+            <div class="edu-item scroll-reveal">
+                <div class="edu-dot"></div>
+                <div class="edu-card">
+                    <div class="edu-meta">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+                        2022 — 2024
+                    </div>
+                    <h3>Intermediate (MPC)</h3>
+                    <p class="edu-inst">Pragati Junior College</p>
+                    <p class="edu-desc">Majored in Mathematics, Physics, and Chemistry with a high emphasis on problem-solving.</p>
+                </div>
+            </div>
+            
+            <div class="edu-item scroll-reveal">
+                <div class="edu-dot"></div>
+                <div class="edu-card">
+                    <div class="edu-meta">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+                        2021 — 2022
+                    </div>
+                    <h3>SSC</h3>
+                    <p class="edu-inst">JSML ZP Girls High School</p>
+                    <p class="edu-desc">Completed secondary school education with academic excellence.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="section-header scroll-reveal">
+            <h2><span class="accent">Skills</span></h2>
+        </div>
+        <div class="skills-grid">
+            <div class="skill-card scroll-reveal">
+                <span class="skill-icon">◈</span>
+                <h3>Front end</h3>
+                <p style="font-size: 0.8rem; color: var(--text-secondary);">HTML, CSS, JavaScript, React, Next.js</p>
+            </div>
+            <div class="skill-card scroll-reveal">
+                <span class="skill-icon">☁</span>
+                <h3>Cloud & DB</h3>
+                <p style="font-size: 0.8rem; color: var(--text-secondary);">AWS Cloud Computing, Oracle SQL</p>
+            </div>
+            <div class="skill-card scroll-reveal">
+                <span class="skill-icon">⌨</span>
+                <h3>Languages</h3>
+                <p style="font-size: 0.8rem; color: var(--text-secondary);">Python, Java, C</p>
+            </div>
+            <div class="skill-card scroll-reveal">
+                <span class="skill-icon">⚡</span>
+                <h3>Fundamentals</h3>
+                <p style="font-size: 0.8rem; color: var(--text-secondary);">Data Structures, OS</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="section-header scroll-reveal">
+            <h2><span class="accent">Projects</span></h2>
+        </div>
+        <div class="projects-grid container">
+            <!-- Project 1: FB Fitness -->
+            <div class="glass-card project-card scroll-reveal">
+                <div class="project-img">
+                    <i class="fas fa-dumbbell"></i>
+                    <div class="project-overlay">
+                        <a href="https://sathivellisaikrishna.github.io/FUTURE_FS_03/" class="btn btn-primary" style="padding: 10px 20px;">Live Demo</a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>FB Fitness </h3>
+                    <p style="color: var(--text-secondary); font-size: 0.95rem; line-height: 1.5;">
+                        A premium local business website developed for an elite fitness facility. Features a futuristic neon-themed interface built with a mobile-first approach, detailed membership layouts, and integrated lead generation.
+                    </p>
+                    <div class="tech-stack">
+                        <span class="tag">HTML5</span>
+                        <span class="tag">CSS3</span>
+                        <span class="tag">JavaScript (Vanilla JS)</span>
+                        <span class="tag">Font Awesome</span>
+                        <span class="tag">Google Fonts</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 2: Personal Portfolio -->
+            <div class="glass-card project-card scroll-reveal">
+                <div class="project-img">
+                    <i class="fas fa-laptop-code"></i>
+                    <div class="project-overlay">
+                        <a href="#" class="btn btn-primary" style="padding: 10px 20px;">View Site</a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Personal Portfolio Website</h3>
+                    <p style="color: var(--text-secondary); font-size: 0.95rem; line-height: 1.5;">Designed and developed a responsive personal portfolio website to showcase projects, technical skills, and Experience. Built using HTML, CSS, and JavaScript, focusing on modern UI/UX principles, performance, and accessibility.                      </p>
+                    <div class="tech-stack">
+                        <span class="tag">HTML5</span>
+                        <span class="tag">CSS3</span>
+                        <span class="tag">JavaScript (Vanilla JS)</span>
+                        <span class="tag">Font Awesome</span>
+                        <span class="tag">Google Fonts</span>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Experience Section -->
+<section id="experience">
+    <div class="section-header scroll-reveal">
+        <h2><span class="accent">Experience</span></h2>
+    </div>
+
+    <div class="exp-timeline">
+        <div class="exp-item scroll-reveal">
+            <div class="exp-date">Mar 2026 — Apr 2026</div>
+
+            <div class="timeline-content">
+                <h3>Full Stack Web Development Intern</h3>
+                <p>Future Interns | Remote</p>
+
+                <ul style="margin-top: 0.6rem; opacity: 0.85; font-size: 0.9rem;">
+                    <li>Developed portfolio, mini CRM, and business website projects</li>
+                    <li>Implemented responsive UI and core CRUD functionality</li>
+                    <li>Used GitHub for version control and project documentation</li>
+                    <li><strong>Technologies:</strong> HTML, CSS, JavaScript, GitHub</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+  <!-- Contact Section -->
+<section id="contact">
+    <div class="section-header scroll-reveal">
+        <h2><span class="accent">Contact</span></h2>
+    </div>
+
+    <div class="contact-container scroll-reveal">
+
+        <!-- Left Side -->
+        <div>
+            <h3>Let's Work Together</h3>
+            <p style="color: var(--text-secondary); margin-top: 1rem;">
+                Open to internships, freelance projects, and collaborations. 
+                Feel free to reach out — I’ll respond as soon as possible.
+            </p>
+
+            <div style="margin-top: 1.5rem; color: var(--text-secondary); font-size: 0.95rem;">
+                <p>📧 Email: saikrishna09058@gmail.com</p>
+                <p>📍 Location: India</p>
+            </div>
+<div class="social-links" style="margin-top: 1.2rem;">
+    
+    <a href="https://github.com/sathivellisaikrishna" target="_blank" class="social-item">
+        <i class="fab fa-github"></i>
+    </a>
+
+    <a href="https://www.linkedin.com/in/sathivelli-sai-krishna-54211a346" target="_blank" class="social-item">
+        <i class="fab fa-linkedin"></i>
+    </a>
+
+</div>        <!-- Right Side (Form) -->
+        <form id="contact-form">
+            <div class="form-group">
+                <label>Name</label>
+                <input type="text" placeholder="Enter your name" required>
+            </div>
+
+            <div class="form-group">
+                <label>Email</label>
+                <input type="email" placeholder="Enter your email" required>
+            </div>
+
+            <div class="form-group">
+                <label>Message</label>
+                <textarea rows="5" placeholder="Write your message..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary" 
+                style="width: 100%; border-radius: 12px; margin-top: 1rem;">
+                Send Message
+            </button>
+        </form>
+    </div>
+</section>
+
+    <footer>
+        <p>&copy; 2026 SAI KRISHNA</p>
+    </footer>
+
+    <!-- External JS -->
+    <script src="script.js"></script>
+
+</body>
+</html>
